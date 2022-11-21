@@ -9,11 +9,11 @@
  *******************************
  [rewrite_local]
  # > 会员
- https:\/\/.*\.*xinai99.com url request-header Cookie:.+ request-header Cookie: xxx_api_auth=6162343563633037633463656162303034656636313732653537633262353337
+ https:\/\/.*\.*isw520.com url request-header X-Cookie-Auth:.+ request-header X-Cookie-Auth: 6162343563633037633463656162303034656636313732653537633262353337
  # > 去广告
  ^https?:\/\/.+\/(index|ucp\/index|vod\/(show|reqplay\/)|getGlobalData).+ url script-response-body https://raw.githubusercontent.com/muxuico/Learn/main/js/BananaVideo.js
  [mitm]
- hostname = *.xinai99.com
+ hostname = *.isw520.com
  *******************************/
 
 var body = $response.body;
@@ -65,7 +65,7 @@ if (urlq.indexOf(ssuper) != -1) {
         "gids" : null,
         "mobi" : "86.18812011099",
         "gicon" : "V5",
-        "avatar_url" : "https:\/\/thirdqq.qlogo.cn\/g?b=oidb&k=iaODNibZcQQTN0QPGShfkKIw&s=640",
+        "avatar_url" : "https:\/\/muxui.com\/usr\/themes\/handsome\/assets\/img\/avatar.png",
         "goldcoin" : 1e6,
         "exampass" : 1,
         "gender" : 1,
