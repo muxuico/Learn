@@ -2,8 +2,8 @@
  脚本功能：香蕉视频解锁无限次数
  软件版本：1.1.0
  下载地址：https://shrtm.nu/xjsp
- 脚本作者：Hausd0rff
- 更新时间：2022-07-24
+ 脚本作者：Muxui
+ 更新时间：2022-11-21
  使用声明：⚠️此脚本仅供学习与交流，
  请勿转载与贩卖！⚠️⚠️⚠️
  *******************************
@@ -11,7 +11,7 @@
  # > 会员
  https:\/\/.*\.*xinai99.com url request-header Cookie:.+ request-header Cookie: xxx_api_auth=6162343563633037633463656162303034656636313732653537633262353337
  # > 去广告
- ^https?:\/\/.+\/(index|ucp\/index|vod\/(show|reqplay\/)|getGlobalData).+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/BananaVideoCrack.js
+ ^https?:\/\/.+\/(index|ucp\/index|vod\/(show|reqplay\/)|getGlobalData).+ url script-response-body https://raw.githubusercontent.com/muxuico/Learn/master/BananaVideo.js
  [mitm]
  hostname = *.xinai99.com
  *******************************/
