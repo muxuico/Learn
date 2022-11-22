@@ -10,9 +10,7 @@
       "name": "zuul数据",
       "author": "@muxui",
       "keys": [
-        "contentLength",
-        "cookie",
-        "zuul"
+
       ],
       "descs_html": [
         "⚠️自用⚠️"
@@ -24,6 +22,27 @@
           "val": "1",
           "type": "number",
           "desc": "打卡类型"
+        },
+        {
+          "id": "contentLength",
+          "name": "长度",
+          "val": "654",
+          "type": "number",
+          "desc": "长度"
+        },
+        {
+          "id": "cookie",
+          "name": "cookie",
+          "val": "",
+          "type": "number",
+          "desc": "cookie"
+        },
+        {
+          "id": "zuul",
+          "name": "zuul",
+          "val": "",
+          "type": "number",
+          "desc": "zuul"
         }
       ],
       "repo": "https://raw.githubusercontent.com/muxuico/Learn/main/js/Clock.js",
