@@ -52,11 +52,10 @@ async function main() {
                     console.log(`API请求失败，请检查网路重试`)
                 } else {
                     console.log(data)
-                    data = JSON.parse(data)
-                    if (data.suc){
-                        console.log(data.msg)
+                    if (data.success){
+                        console.log(data.resultMessage)
                     }else{
-                        console.log(data.msg)
+                        console.log(data.resultMessage)
                     }
                 }
             } catch (e) {
