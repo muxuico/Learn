@@ -34,14 +34,14 @@
           "id": "cookie",
           "name": "cookie",
           "val": "",
-          "type": "number",
+          "type": "text",
           "desc": "cookie"
         },
         {
           "id": "zuul",
           "name": "zuul",
           "val": "",
-          "type": "number",
+          "type": "text",
           "desc": "zuul"
         }
       ],
