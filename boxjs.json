@@ -1,0 +1,37 @@
+{
+  "id": "muxui.script.sub",
+  "name": "沐旭i自用脚本",
+  "author": "@沐旭i",
+  "icon": "https://avatars3.githubusercontent.com/u/52337422?s=460&u=0aa6057c2af304d742d20b3b865c34f2902ad5c1&v=4",
+  "repo": "https://github.com/muxuico",
+  "apps": [
+    {
+      "id": "打卡",
+      "name": "zuul数据",
+      "author": "@muxui",
+      "keys": [
+        "contentLength",
+        "cookie",
+        "zuul"
+      ],
+      "descs_html": [
+        "⚠️自用⚠️"
+      ],
+      "settings": [
+        {
+          "id": "type",
+          "name": "类型",
+          "val": "1",
+          "type": "number",
+          "desc": "打卡类型"
+        }
+      ],
+      "repo": "https://raw.githubusercontent.com/muxuico/Learn/main/js/Clock.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/time.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/time.png"
+      ],
+      "script": "https://raw.githubusercontent.com/muxuico/Learn/main/js/Clock.js"
+    }
+  ]
+}
