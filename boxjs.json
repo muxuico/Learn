@@ -43,6 +43,13 @@
           "val": "",
           "type": "text",
           "desc": "zuul"
+        },
+        {
+          "id": "attend",
+          "name": "attend",
+          "val": "8aaa822d8440ef4b01849b0683400ca7",
+          "type": "text",
+          "desc": "参加ID"
         }
       ],
       "repo": "https://raw.githubusercontent.com/muxuico/Learn/main/js/Clock.js",
