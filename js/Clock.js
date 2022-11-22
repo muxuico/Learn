@@ -3,6 +3,7 @@
 *******************************/
 
 
+const $ = new Env('签到打卡');
 
 const type = $.getval('type');
 const contentLength = $.getval("contentLength");
