@@ -36,7 +36,7 @@ const body = "userId=e148043e91b311ea93b5000c29f37718&attendId=8aaa822d8440ef4b0
     })
 
 async function main() {
-    console.log(JSON.stringify(process.headers))
+    console.log(JSON.stringify(headers))
     console.log(body)
 }
 // prettier-ignore
