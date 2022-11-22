@@ -52,11 +52,6 @@ async function main() {
                     console.log(`API请求失败，请检查网路重试`)
                 } else {
                     console.log(data)
-                    if (data.success){
-                        console.log(data.resultMessage)
-                    }else{
-                        console.log(data.resultMessage)
-                    }
                 }
             } catch (e) {
                 $.logErr(e, resp)
