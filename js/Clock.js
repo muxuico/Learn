@@ -12,10 +12,12 @@ const zuul = $.getval("zuul");
 const attend = $.getval("attend");
 
 !(async () => {
+    console.log(`\n******${type}*******\n`);
     await main();
+    await $.wait(1000)
 })()
     .catch((e) => {
-        $.log('', `❌ ${O}, 失败! 原因: ${e}!`, '')
+        $.log('', `❌${$.name}, 失败! 原因: ${e}!`, '')
     })
     .finally(() => {
         $.done();
@@ -49,6 +51,7 @@ async function main() {
                     console.log(`${JSON.stringify(err)}`)
                     console.log(`API请求失败，请检查网路重试`)
                 } else {
+                    console.log(data)
                     data = JSON.parse(data)
                     if (data.suc){
                         console.log(data.msg)
