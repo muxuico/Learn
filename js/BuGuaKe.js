@@ -30,7 +30,7 @@ if (url.indexOf(URL1) != -1) {
     };
     body = JSON.stringify(modified);
 }
-;
+
 if (url.indexOf(URL2) != -1) {
     var body = $response.body.replace(/"isLimit":\d/g, '"isLimit":0').replace(/"isPay":\d/g, '"isPay":0');
 }
