@@ -1,0 +1,63 @@
+{
+  "id": "muxui.script.sub",
+  "name": "沐旭i自用脚本",
+  "author": "@沐旭i",
+  "icon": "https://raw.githubusercontent.com/muxuico/Learn/main/img/mdou.png",
+  "repo": "https://github.com/muxuico",
+  "apps": [
+    {
+      "id": "打卡",
+      "name": "zuul数据",
+      "author": "@muxui",
+      "keys": [
+
+      ],
+      "descs_html": [
+        "⚠️自用⚠️"
+      ],
+      "settings": [
+        {
+          "id": "type",
+          "name": "类型",
+          "val": "1",
+          "type": "number",
+          "desc": "打卡类型"
+        },
+        {
+          "id": "contentLength",
+          "name": "长度",
+          "val": "654",
+          "type": "number",
+          "desc": "长度"
+        },
+        {
+          "id": "cookie",
+          "name": "cookie",
+          "val": "",
+          "type": "text",
+          "desc": "cookie"
+        },
+        {
+          "id": "zuul",
+          "name": "zuul",
+          "val": "",
+          "type": "text",
+          "desc": "zuul"
+        },
+        {
+          "id": "attend",
+          "name": "attend",
+          "val": "8aaa822d8440ef4b01849b0683400ca7",
+          "type": "text",
+          "desc": "参加ID"
+        }
+      ],
+      "repo": "https://raw.githubusercontent.com/muxuico/Learn/main/js/Clock.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/time.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/time.png"
+      ],
+      "script": "https://raw.githubusercontent.com/muxuico/Learn/main/js/Clock.js"
+    }
+  ]
+}
